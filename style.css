@@ -1,0 +1,107 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.login-form {
+    width: 57%;
+    display: flex;
+    margin: auto;
+    margin-top: 3%;
+    border-radius: 10px;
+    box-shadow: -1px 2px 20px #f1eded;
+}
+
+.welcome-container {
+    background-image: url(./images/bg-img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 45%;
+    padding-left: 43px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.welcome-container>h1 {
+    font-size: 3em;
+    margin-left: 8%;
+    margin-top: 57%;
+    color: #ffffff;
+}
+
+form {
+    width: 37%;
+    padding: 53px;
+    padding-left: 60px
+}
+
+form legend {
+    font-size: 2em;
+    font-weight: bolder;
+    color: #393939;
+}
+
+form>p {
+    color: #ccc;
+    margin-bottom: 30px;
+}
+
+label {
+    color: #a0a0a0;
+
+}
+
+form input[type="email"],
+input[type="password"] {
+    width: 80%;
+    padding: 13px 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-top: 2%;
+    margin-bottom: 25px;
+    font-size: 14px;
+}
+
+input[type="password"]:focus {
+    background-image: url(./images/icons8-eye-25.png);
+    background-position: 96%;
+    background-repeat: no-repeat;
+}
+
+.rememberme {
+    font-size: 12px;
+}
+
+.rememberme a {
+    margin-left: 30%;
+    font-size: 12px;
+    text-decoration: none;
+    color: #a0a0a0;
+    cursor: pointer;
+}
+
+button {
+    width: 92%;
+    margin-top: 30px;
+    padding: 12px 20px;
+    border-radius: 5px;
+    margin-bottom: 25px;
+    background-color: #8139fc;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    border-style: none;
+}
+
+.signup {
+    font-size: 14px;
+    color: #a0a0a0;
+}
+
+.signup a {
+    text-decoration: none;
+    cursor: pointer;
+}
